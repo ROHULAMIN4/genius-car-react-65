@@ -1,0 +1,21 @@
+.Addservice form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Addservice form input,
+textarea {
+  width: 50%;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.addservice-submit {
+  background-color: #0c5a85;
+  color: white;
+}
+.addservice-submit:hover {
+  background-color: #00a6ff;
+  transition: 0.2s;
+}
